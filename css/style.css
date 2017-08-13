@@ -25,7 +25,7 @@ header {
    min-height: 500px;
    height: 100%;
    width: 100%;
-   background: #161415 url(../img/back.jpg) no-repeat top center;
+   background: #161415 url(../img/earth.jpg) no-repeat top center;
    background-size: cover;
     -webkit-background-size: cover;
    text-align: center;
@@ -51,7 +51,7 @@ header .banner {
 header .banner-text { width: 100%; }
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
-   color: #F06000;
+   color: #11ABB0;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
@@ -148,7 +148,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #11ABB0; }
 
 
 .round{
@@ -170,13 +170,22 @@ ul#nav li.current a { color: #F06000; }
 
 #about a.black {
     color: #000;
+    background: none;
     font-weight: 700;
 } 
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus {
+    color: #11ABB0;
+    background: none;
+}
+#about a{
+    color: #868e96;
+    background: #11ABB0;
+}
 
 #about h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
-   margin-bottom: 12px;
+    font: 22px/30px 'opensans-bold', sans-serif;
+    margin-bottom: 12px;
+    color: #11ABB0;
 }
 #about p {
    line-height: 30px;
@@ -188,7 +197,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 footer a{
-    color: #F06000;
+    color: #11ABB0;
 }
 
 #linkedin{
