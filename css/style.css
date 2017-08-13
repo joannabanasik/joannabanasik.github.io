@@ -166,7 +166,7 @@ ul#nav li.current a { color: #11ABB0; }
 }
 
 
-#about a, #about a:visited  { color: #fff; }
+#about a { color: #fff; }
 
 #about a.black {
     color: #000;
