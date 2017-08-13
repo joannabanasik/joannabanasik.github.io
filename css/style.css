@@ -173,11 +173,11 @@ ul#nav li.current a { color: #11ABB0; }
     background: none;
     font-weight: 700;
 } 
-#about a:hover, #about a:focus {
+#icons a:hover, #icons a:focus {
     color: #11ABB0;
     background: none;
 }
-#about a{
+#icons a{
     color: #868e96;
     background: #11ABB0;
 }
