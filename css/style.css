@@ -13,132 +13,135 @@
     background-size: cover;
 }
 
-#icons{
-   padding-top:25px;
-   min-height: 200px; 
-   text-align: center;
+#icons {
+    padding-top: 25px;
+    min-height: 200px;
+    text-align: center;
 }
 
-
 header {
-   position: relative;
-   min-height: 500px;
-   height: 100%;
-   width: 100%;
-   background: #161415 url(../img/earth.jpg) no-repeat top center;
-   background-size: cover;
+    position: relative;
+    min-height: 500px;
+    height: 100%;
+    width: 100%;
+    background: #161415 url(../img/earth.jpg) no-repeat top center;
+    background-size: cover;
     -webkit-background-size: cover;
-   text-align: center;
-   overflow: hidden;
+    text-align: center;
+    overflow: hidden;
 }
 
 header:before {
-   content: '';
-   display: inline-block;
-   vertical-align: middle;
-   height: 100%;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
 }
 
 header .banner {
-   display: inline-block;
-   vertical-align: middle;
-   margin: 0 auto;
-   width: 85%;
-   padding-bottom: 30px;s
-   text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 85%;
+    padding-bottom: 30px;
+    text-align: center;
 }
 
-header .banner-text { width: 100%; }
+header .banner-text {
+    width: 100%;
+}
+
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
-   color: #11ABB0;
-   letter-spacing: -2px;
-   margin: 0 auto 18px auto;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+    font: 90px/1.1em 'opensans-bold', sans-serif;
+    color: #11ABB0;
+    letter-spacing: -2px;
+    margin: 0 auto 18px auto;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .8);
 }
 
 header .banner-text h3 {
-   color: #A8A8A8;
-   margin: 0 auto;
-   width: 70%;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+    color: #A8A8A8;
+    margin: 0 auto;
+    width: 70%;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
 }
 
 header .banner-text h3 span,
 header .banner-text h3 a {
-   color: #fff;
+    color: #fff;
 }
 
 header .scrolldown a {
-   position: absolute;
-   bottom: 30px;
-   left: 50%;
-   margin-left: -29px;
-   color: #fff;
-   display: block;
-   height: 42px;
-   width: 42px;
-   font-size: 42px;
-   line-height: 42px;
-   color: #fff;
-   border-radius: 100%;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -29px;
+    color: #fff;
+    display: block;
+    height: 42px;
+    width: 42px;
+    font-size: 42px;
+    line-height: 42px;
+    border-radius: 100%;
 
-   -webkit-transition: all .3s ease-in-out;
-   -moz-transition: all .3s ease-in-out;
-   -o-transition: all .3s ease-in-out;
-   transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
 
+header .scrolldown a:hover {
+    color: #11ABB0;
+}
 
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
-     margin: 0;
-     padding: 0;
-     border: none;
-     outline: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
 }
 
-/* nav-wrap */
 #nav-wrap {
-   font: 12px 'opensans-bold', sans-serif;
-   width: 100%;
-   text-transform: uppercase;
-   letter-spacing: 2.5px;
-   margin: 0 auto;
-   z-index: 100;
-   position: fixed;
-   left: 0;
-   top: 0;
+    font: 12px 'opensans-bold', sans-serif;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin: 0 auto;
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
-.opaque { background-color: #333; }
 
-/* hide toggle button */
-#nav-wrap > a.mobile-btn { display: none; }
+.opaque {
+    background-color: #333;
+}
+
+#nav-wrap > a.mobile-btn {
+    display: none;
+}
 
 ul#nav {
-   min-height: 48px;
-   width: auto;
-
-   /* center align the menu */
-   text-align: center;
+    min-height: 48px;
+    width: auto;
+    text-align: center;
 }
 
 ul#nav li {
-   position: relative;
-   list-style: none;
-   height: 48px;
-   display: inline-block;
+    position: relative;
+    list-style: none;
+    height: 48px;
+    display: inline-block;
 }
-
 
 ul#nav li a {
 
-   display: inline-block;
-   padding: 8px 13px;
-   line-height: 32px;
+    display: inline-block;
+    padding: 8px 13px;
+    line-height: 32px;
     text-decoration: none;
-   text-align: left;
-   color: #fff;
+    text-align: left;
+    color: #fff;
 
     -webkit-transition: color .2s ease-in-out;
     -moz-transition: color .2s ease-in-out;
@@ -147,37 +150,43 @@ ul#nav li a {
     transition: color .2s ease-in-out;
 }
 
-ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #11ABB0; }
+ul#nav li a:active {
+    background-color: transparent !important;
+}
 
+ul#nav li.current a {
+    color: #11ABB0;
+}
 
-.round{
+.round {
     border-radius: 15px;
 }
 
-
 #about {
-   padding-top: 186px;
-     overflow: hidden;
+    padding-top: 186px;
+    overflow: hidden;
 }
 
 #icons {
-     padding-bottom: 96px;
+    padding-bottom: 96px;
 }
 
-
-#about a { color: #fff; }
+#about a {
+    color: #fff;
+}
 
 #about a.black {
     color: #000;
     background: none;
     font-weight: 700;
-} 
+}
+
 #icons a:hover, #icons a:focus {
     color: #11ABB0;
     background: none;
 }
-#icons a{
+
+#icons a {
     color: #FFF;
     background: #11ABB0;
 }
@@ -187,37 +196,36 @@ ul#nav li.current a { color: #11ABB0; }
     margin-bottom: 12px;
     color: #11ABB0;
 }
+
 #about p {
-   line-height: 30px;
-   
+    line-height: 30px;
 }
 
-.text-muted{
+.text-muted {
     font-size: 26px;
 }
 
-footer a{
+footer a {
     color: #11ABB0;
 }
 
-#linkedin{
+.linkedin {
     position: absolute;
     right: 5px;
     top: 5px;
 }
 
+@media screen and (min-width: 0px) and (max-width: 600px) {
+    #nav-wrap {
+        background-color: #333;
+    }
 
+    header .banner-text h1 {
+        font: 40px/1.1em 'opensans-bold', sans-serif;
+        padding-top: 80px;
+    }
 
-@media screen and (min-width: 0px) and (max-width: 600px){
-  #nav-wrap{
-    background-color: #333;
-  }
-  header .banner-text h1{
-    font: 40px/1.1em 'opensans-bold', sans-serif;
-    padding-top: 80px;
-  }
-.show #linkedin{
-display: none;
-}
-
+    .show #linkedin {
+        display: none;
+    }
 }
